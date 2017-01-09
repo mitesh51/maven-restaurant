@@ -7,6 +7,9 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>restaurant Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <configuration>
+    <webXml>Restaurant\main\webapp\WEB-INF\web.xml</webXml>        
+  </configuration>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
